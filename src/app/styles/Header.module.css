@@ -20,7 +20,7 @@
   align-items: center;
   padding: 1rem 1rem 0 1rem;
   background-color: var(--clr-white);
-  box-shadow: 10px 10px 10px 10px var(--clr-white);
+  box-shadow: 10px 15px 15px 15px var(--clr-white);
 }
 
 .menu_container {
@@ -55,6 +55,9 @@
 }
 .burger::before {
   top: 5px;
+}
+.burger:hover {
+  animation: shake2 500ms ease-in-out;
 }
 
 .burgerActive::after {
@@ -94,6 +97,25 @@
     transform: rotate(0deg);
   }
 }
+
+@keyframes shake2 {
+  0% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -152,9 +174,10 @@
   width: fit-content;
   cursor: pointer;
 }
+
 .nav_links {
   opacity: 0;
-  line-height: 1.1;
+  line-height: 1;
   transform: translateX(-50vw);
   animation: SlideFade 1000ms cubic-bezier(0.76, 0, 0.24, 1) forwards;
   animation-delay: 300ms;

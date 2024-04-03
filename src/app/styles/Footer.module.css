@@ -1,0 +1,41 @@
+/** @format */
+
+.footer_container {
+  background-color: var(--clr-black);
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 100px 5px 0 0;
+}
+.link_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem auto;
+}
+.brand {
+  margin-left: 2rem;
+}
+.social {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  transition: 300ms;
+}
+.animate:hover {
+  animation: shake 300ms ease-in-out;
+}
+.regulations {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
