@@ -18,7 +18,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      {/* --- No sreenReaders XD --- */}
+      <body aria-hidden='true'>
         <Header></Header>
         <main className={sans.className}>{children}</main>
         <Footer></Footer>

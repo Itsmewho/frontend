@@ -1,7 +1,9 @@
 /** @format */
 
 function Gallery() {
-  return <div>Gallery</div>;
+  return (<>
+  
+  </>)
 }
 
 export default Gallery;
