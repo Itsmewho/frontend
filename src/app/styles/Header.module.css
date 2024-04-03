@@ -1,0 +1,46 @@
+/** @format */
+
+.nav_container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: var(--clr-white);
+  box-shadow: 10px 10px 10px 10px var(--clr-white);
+}
+
+.menu_container {
+  display: grid;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--clr-black);
+}
+.center_container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+.title {
+  text-decoration: underline 1px var(--clr-accent);
+  text-underline-offset: 3px;
+  text-underline-position: left;
+}
+
+.ecom_container {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid black;
+}
