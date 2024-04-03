@@ -11,7 +11,7 @@ const sans = localfonttwo({
 });
 
 export const metadata = {
-  title: 'Create Next App',
+  title: 'Joanne',
   description: 'hello world',
 };
 
@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/* --- No sreenReaders XD --- */}
-      <body aria-hidden='true'>
-        <Header></Header>
+      <body>
+        <Header aria-hidden='true'></Header>
         <main className={sans.className}>{children}</main>
         <Footer></Footer>
       </body>

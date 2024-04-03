@@ -1,7 +1,7 @@
 /** @format */
 
 'use client';
-import styles from './styles/Home.module.css';
+import styles from './Home.module.css';
 import { clsx } from 'clsx';
 import { useEffect } from 'react';
 

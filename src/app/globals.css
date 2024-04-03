@@ -91,6 +91,10 @@ body {
   overflow-x: hidden;
 }
 
+section{
+  margin-top: 5rem;
+}
+
 img,
 picutre {
   max-width: 100%;
@@ -127,7 +131,7 @@ button,
 Link {
   font-family: 'Zwitser', sans-serif;
 }
-/* --- colors ---  */
+
 /*-- colors --*/
 .white {
   color: var(--clr-white);

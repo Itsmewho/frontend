@@ -33,6 +33,7 @@
   cursor: pointer;
   border: 2px solid var(--clr-black);
   border-radius: 100%;
+  margin-left: 1.5rem;
 }
 
 .burger {
@@ -139,7 +140,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   width: 100%;
 }
 
