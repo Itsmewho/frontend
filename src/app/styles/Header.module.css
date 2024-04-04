@@ -74,6 +74,9 @@
   justify-content: center;
   margin: 0 auto;
 }
+.image {
+  aspect-ratio: 2/22;
+}
 
 .ecom_container {
   display: flex;

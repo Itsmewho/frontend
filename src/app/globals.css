@@ -8,7 +8,7 @@
   /* switch with theme */
   --clr-creme: hsl(223, 20%, 93%);
   /* creme becomes darkgray #272727? */
-  --clr-accent: rgb(255, 106, 77);
+  --clr-accent: hsl(10, 100%, 65%);
   --clr-blue: hsl(203, 100%, 23%);
 
   --ff-serif: 'Spectral', sans-serif;

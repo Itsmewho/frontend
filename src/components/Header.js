@@ -24,7 +24,7 @@ function Header() {
                 <Link href="/login" onClick={navToggle}>
                   <Image
                     src="/user.svg"
-                    alt="Iamge of the brand"
+                    alt="User login"
                     height={45}
                     width={45}
                   />
@@ -34,7 +34,7 @@ function Header() {
                 <Link href="/cart" onClick={navToggle}>
                   <Image
                     src="/shopping-cart.svg"
-                    alt="Iamge of the brand"
+                    alt="Cart"
                     height={45}
                     width={45}
                   />
@@ -111,9 +111,10 @@ function Header() {
             <div className={styles.brand_container}>
               <Link href="/">
                 <Image
+                  className={styles.image}
                   src="/Brand.png"
                   alt="Iamge of the brand"
-                  height={70}
+                  height={73}
                   width={160}
                 />
               </Link>
@@ -124,7 +125,7 @@ function Header() {
               <Link href="/login">
                 <Image
                   src="/user.svg"
-                  alt="Iamge of the brand"
+                  alt="User login"
                   height={45}
                   width={45}
                 />
@@ -134,7 +135,7 @@ function Header() {
               <Link href="/cart">
                 <Image
                   src="/shopping-cart.svg"
-                  alt="Iamge of the brand"
+                  alt="Cart"
                   height={45}
                   width={45}
                 />

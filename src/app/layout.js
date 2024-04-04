@@ -4,6 +4,7 @@ import localfonttwo from 'next/font/local';
 import './globals.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import Cookie from '@/components/Cookie';
 
 const sans = localfonttwo({
   src: '/font/Zwister.woff2',
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header aria-hidden='true'></Header>
         <main className={sans.className}>{children}</main>
+        <Cookie></Cookie>
         <Footer></Footer>
       </body>
     </html>

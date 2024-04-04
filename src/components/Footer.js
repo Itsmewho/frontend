@@ -13,8 +13,8 @@ function Footer() {
               <Link href="/">
                 <Image
                   src="/Brandlight.png"
-                  alt="Iamge of the brand"
-                  height={70}
+                  alt="Image of the brand"
+                  height={73}
                   width={160}
                 />
               </Link>
