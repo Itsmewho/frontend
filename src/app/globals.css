@@ -91,10 +91,12 @@ body {
   overflow-x: hidden;
 }
 
-section{
+section {
   margin-top: 5rem;
 }
-
+.main {
+  min-height: 100vh;
+}
 img,
 picutre {
   max-width: 100%;

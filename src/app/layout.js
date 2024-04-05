@@ -5,6 +5,7 @@ import './globals.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Cookie from '@/components/Cookie';
+import clsx from 'clsx';
 
 const sans = localfonttwo({
   src: '/font/Zwister.woff2',
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
       {/* --- No sreenReaders XD --- */}
       <body>
         <Header aria-hidden='true'></Header>
-        <main className={sans.className}>{children}</main>
+        <main className={clsx('main', sans.className)}>{children}</main>
         <Cookie></Cookie>
         <Footer></Footer>
       </body>

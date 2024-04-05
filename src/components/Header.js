@@ -8,6 +8,8 @@ import Link from 'next/link';
 
 function Header() {
   const [isActive, setActive] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   const navToggle = () => {
     setActive(!isActive);
     window.scrollTo(0, 0);
@@ -21,14 +23,26 @@ function Header() {
           <div className={styles.closing_container}>
             <div className={styles.ecom_container}>
               <div className={styles.header_icon}>
-                <Link href="/login" onClick={navToggle}>
-                  <Image
-                    src="/user.svg"
-                    alt="User login"
-                    height={45}
-                    width={45}
-                  />
-                </Link>
+                {isLoggedIn && (
+                  <Link href="/login" onClick={navToggle}>
+                    <Image
+                      src="/user-check.svg"
+                      alt="User login"
+                      height={45}
+                      width={45}
+                    />
+                  </Link>
+                )}
+                {!isLoggedIn && (
+                  <Link href="/login" onClick={navToggle}>
+                    <Image
+                      src="/user.svg"
+                      alt="User login"
+                      height={45}
+                      width={45}
+                    />
+                  </Link>
+                )}
               </div>
               <div className={styles.header_icon}>
                 <Link href="/cart" onClick={navToggle}>
@@ -122,14 +136,26 @@ function Header() {
           </div>
           <div className={styles.ecom_container}>
             <div className={styles.header_icon}>
-              <Link href="/login">
-                <Image
-                  src="/user.svg"
-                  alt="User login"
-                  height={45}
-                  width={45}
-                />
-              </Link>
+              {isLoggedIn && (
+                <Link href="/login">
+                  <Image
+                    src="/user-check.svg"
+                    alt="User login"
+                    height={45}
+                    width={45}
+                  />
+                </Link>
+              )}
+              {!isLoggedIn && (
+                <Link href="/login">
+                  <Image
+                    src="/user.svg"
+                    alt="User login"
+                    height={45}
+                    width={45}
+                  />
+                </Link>
+              )}
             </div>
             <div className={styles.header_icon}>
               <Link href="/cart">
