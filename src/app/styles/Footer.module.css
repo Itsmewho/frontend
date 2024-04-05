@@ -12,6 +12,7 @@
 }
 .brand {
   margin-left: 2rem;
+  padding: 0.2rem;
 }
 .social {
   display: flex;
@@ -27,6 +28,10 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+}
+.image {
+  padding: 0.3rem;
+  aspect-ratio: 2/22;
 }
 @keyframes shake {
   0% {

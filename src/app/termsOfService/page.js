@@ -53,34 +53,34 @@ function TermsOfSerice() {
             </p>
             <h4 className="ff-serif fs-400 black fw"> TABLE OF CONTENTS</h4>
             <ul className="fw">
-              <li>1. OUR SERVICES</li>
-              <li>2. INTELLECTUAL PROPERTY RIGHTS</li>
-              <li>3. USER REPRESENTATIONS</li>
-              <li>4. PRODUCTS</li>
-              <li>5. PURCHASES AND PAYMENT</li>
-              <li>6. REFUNDS POLICY</li>
-              <li>7. PROHIBITED ACTIVITIES</li>
-              <li>8. USER GENERATED CONTRIBUTIONS</li>
-              <li>9. CONTRIBUTION LICENSE</li>
-              <li>10. GUIDELINES FOR REVIEWS</li>
-              <li>11. THIRD-PARTY WEBSITES AND CONTENT</li>
-              <li>12. SERVICES MANAGEMENT</li>
-              <li>13. PRIVACY POLICY</li>
-              <li>14. TERM AND TERMINATION</li>
-              <li>15. MODIFICATIONS AND INTERRUPTIONS</li>
-              <li>16. GOVERNING LAW</li>
-              <li>17. DISPUTE RESOLUTION</li>
-              <li>18. CORRECTIONS</li>
-              <li>19. DISCLAIMER</li>
-              <li>20. LIMITATIONS OF LIABILITY</li>
-              <li>21. INDEMNIFICATION</li>
-              <li>22. USER DATA</li>
-              <li>
+              <li className="ff-sans">1. OUR SERVICES</li>
+              <li className="ff-sans">2. INTELLECTUAL PROPERTY RIGHTS</li>
+              <li className="ff-sans">3. USER REPRESENTATIONS</li>
+              <li className="ff-sans">4. PRODUCTS</li>
+              <li className="ff-sans">5. PURCHASES AND PAYMENT</li>
+              <li className="ff-sans">6. REFUNDS POLICY</li>
+              <li className="ff-sans">7. PROHIBITED ACTIVITIES</li>
+              <li className="ff-sans">8. USER GENERATED CONTRIBUTIONS</li>
+              <li className="ff-sans">9. CONTRIBUTION LICENSE</li>
+              <li className="ff-sans">10. GUIDELINES FOR REVIEWS</li>
+              <li className="ff-sans">11. THIRD-PARTY WEBSITES AND CONTENT</li>
+              <li className="ff-sans">12. SERVICES MANAGEMENT</li>
+              <li className="ff-sans">13. PRIVACY POLICY</li>
+              <li className="ff-sans">14. TERM AND TERMINATION</li>
+              <li className="ff-sans">15. MODIFICATIONS AND INTERRUPTIONS</li>
+              <li className="ff-sans">16. GOVERNING LAW</li>
+              <li className="ff-sans">17. DISPUTE RESOLUTION</li>
+              <li className="ff-sans">18. CORRECTIONS</li>
+              <li className="ff-sans">19. DISCLAIMER</li>
+              <li className="ff-sans">20. LIMITATIONS OF LIABILITY</li>
+              <li className="ff-sans">21. INDEMNIFICATION</li>
+              <li className="ff-sans">22. USER DATA</li>
+              <li className="ff-sans">
                 23. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
               </li>
-              <li>24. CALIFORNIA USERS AND RESIDENTS</li>
-              <li>25. MISCELLANEOUS</li>
-              <li>26. CONTACT US</li>
+              <li className="ff-sans">24. CALIFORNIA USERS AND RESIDENTS</li>
+              <li className="ff-sans">25. MISCELLANEOUS</li>
+              <li className="ff-sans">26. CONTACT US</li>
             </ul>
             <h4 className="ff-serif black fw"> 1. OUR SERVICES</h4>
             <p>

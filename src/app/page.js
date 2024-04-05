@@ -2,7 +2,6 @@
 
 'use client';
 import styles from './Home.module.css';
-import { clsx } from 'clsx';
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -21,17 +20,37 @@ export default function Home() {
     <>
       <section>
         <div className="page-wrapper">
-          <div className="l-4 l-b">
-            <h1 className={clsx('l-4 l-b', styles.world)}>Hello world boeie</h1>
-            <p className="fw">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              natus porro facilis accusantium blanditiis minima reprehenderit
-              obcaecati veritatis a earum atque officiis asperiores eveniet,
-              alias amet nobis laborum consequatur veniam.
-            </p>
+          <div className={styles.hero_container}>
+            <div className={styles.title_container}>
+              <p className="fs-900 ff-serif upper fw">
+                A <span className="accent ff-serif">view</span>
+              </p>
+              <p className="fs-900 ff-serif upper fw">Everyone</p>
+              <p className="fs-900 ff-serif upper fw">Can Afford</p>
+            </div>
+            <div className={styles.image_container}>
+              <div className={styles.circleImg}>
+                <div className={styles.image_circle}>
+                  <div className={styles.image} />
+                </div>
+              </div>
+            </div>
+            <div className={styles.cta_container}>
+              <p className="fs-400">
+                Where sensuality meets playfulness. Explore my world of
+                temptation, while subtly giving you warmth and comfort, creating
+                an new experience.
+              </p>
+              <div className={styles.btn_container}>
+                <div className={styles.btn_container}>
+                  <div className={styles.btn}>
+                    <span className="accent upper l-2">Photo Gallery</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className={styles.height}></div>
       </section>
     </>
   );

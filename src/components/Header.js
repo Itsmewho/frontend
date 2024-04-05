@@ -10,6 +10,11 @@ function Header() {
   const [isActive, setActive] = useState(true);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
+
+  const navToggle2 = () =>{
+    setActive(!isActive);
+
+  }
   const navToggle = () => {
     setActive(!isActive);
     window.scrollTo(0, 0);
@@ -115,7 +120,7 @@ function Header() {
       </div>
       <div className={styles.animation}>
         <nav className={styles.nav_container}>
-          <div className={styles.menu_container} onClick={navToggle}>
+          <div className={styles.menu_container} onClick={navToggle2}>
             <div
               className={`${styles.burger} ${
                 isActive ? '' : styles.burgerActive

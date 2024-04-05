@@ -4,14 +4,15 @@
   /* --- colors --- */
 
   --clr-black: hsl(60, 4%, 11%);
-  --clr-white: hsl(200, 13%, 94%);
+  --clr-white: hsl(39, 67%, 97%);
+  --clr-gray: hsl(200, 13%, 75%);
   /* switch with theme */
-  --clr-creme: hsl(223, 20%, 93%);
+  --clr-creme: hsl(39, 67%, 95%);
   /* creme becomes darkgray #272727? */
-  --clr-accent: hsl(10, 100%, 65%);
+  --clr-accent: hsl(10, 100%, 62%);
   --clr-blue: hsl(203, 100%, 23%);
 
-  --ff-serif: 'Spectral', sans-serif;
+  --ff-serif: 'Melodrama', sans-serif;
   --ff-sans: 'Zwister', sans;
 
   /* --- font sizes --- */
@@ -29,14 +30,14 @@
   font-family: 'Zwitser';
   font-style: normal;
   font-weight: 400;
-  src: url('./font/Zwister.woff2');
+  src: url('./font/Zwitser-Reg.woff2');
 }
 
 @font-face {
-  font-family: 'Spectral';
+  font-family: 'Melodrama';
   font-style: normal;
   font-weight: 400;
-  src: url('./font/Spectral-Italic.woff2');
+  src: url('./font/Malodrama.woff2');
 }
 
 /* --- Reset --- */
@@ -109,7 +110,7 @@ picutre {
 /*--- typography ---*/
 
 .ff-serif {
-  font-family: 'Spectral', sans-serif;
+  font-family: 'Melodrama', sans-serif;
 }
 
 .ff-sans {
@@ -123,7 +124,7 @@ h4,
 h5,
 h6,
 li {
-  font-family: 'Spectral', sans-serif;
+  font-family: 'Melodrama', sans-serif;
 }
 
 a,
@@ -137,6 +138,9 @@ Link {
 /*-- colors --*/
 .white {
   color: var(--clr-white);
+}
+.gray {
+  color: var(--clr-gray);
 }
 .creme {
   color: var(--clr-creme);
@@ -212,7 +216,7 @@ Link {
 /*--- Utils --- */
 
 .page-wrapper {
-  padding-top: 5rem;
+  padding-top: 3rem;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -227,7 +231,7 @@ Link {
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 15px;
+    bottom: 10px;
     left: 0;
     background-color: var(--clr-accent);
     transform-origin: bottom right;

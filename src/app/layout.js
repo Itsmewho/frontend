@@ -8,7 +8,7 @@ import Cookie from '@/components/Cookie';
 import clsx from 'clsx';
 
 const sans = localfonttwo({
-  src: '/font/Zwister.woff2',
+  src: '/font/Zwitser-Reg.woff2',
   display: 'swap',
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* --- No sreenReaders XD --- */}
       <body>
-        <Header aria-hidden='true'></Header>
+        <Header></Header>
         <main className={clsx('main', sans.className)}>{children}</main>
         <Cookie></Cookie>
         <Footer></Footer>

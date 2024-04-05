@@ -12,6 +12,7 @@ function Footer() {
             <div className={styles.brand}>
               <Link href="/">
                 <Image
+                  className={styles.image}
                   src="/Brandlight.png"
                   alt="Image of the brand"
                   height={73}

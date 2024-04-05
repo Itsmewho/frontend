@@ -1,6 +1,7 @@
 /** @format */
 .animation {
   position: fixed;
+  z-index: 900;
   top: 0;
   width: 100%;
   opacity: 0;
@@ -10,6 +11,7 @@
 .nav_container {
   display: flex;
   position: absolute;
+  z-index: 900;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
@@ -18,7 +20,7 @@
   transform: translateX(-50%);
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 2rem 0 1rem;
   background-color: var(--clr-white);
   box-shadow: 10px 15px 15px 15px var(--clr-white);
 }
@@ -73,6 +75,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  transform: translateX(1rem);
 }
 .image {
   aspect-ratio: 2/22;
