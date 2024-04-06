@@ -1,7 +1,7 @@
 /** @format */
 .animation {
   position: fixed;
-  z-index: 900;
+  z-index: 10;
   top: 0;
   width: 100%;
   opacity: 0;
@@ -206,7 +206,7 @@
 
 .closing_container {
   position: absolute;
-  z-index: 1;
+  z-index: 9000;
   top: 0;
   right: 0;
   width: 50%;
@@ -247,12 +247,12 @@
   0% {
     display: block;
     opacity: 1;
-    z-index: 1;
+    z-index: 900;
     width: 100vw;
   }
   99% {
     opacity: 1;
-    z-index: 1;
+    z-index: 900;
   }
   100% {
     opacity: 0;

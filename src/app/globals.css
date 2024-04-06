@@ -4,10 +4,10 @@
   /* --- colors --- */
 
   --clr-black: hsl(60, 4%, 11%);
-  --clr-white: hsl(39, 67%, 97%);
-  --clr-gray: hsl(200, 13%, 75%);
+  --clr-white: hsl(22, 35%, 97%);
+  --clr-gray: hsl(25, 36%, 96%);
   /* switch with theme */
-  --clr-creme: hsl(39, 67%, 95%);
+  --clr-creme: hsl(200, 13%, 95%);
   /* creme becomes darkgray #272727? */
   --clr-accent: hsl(10, 100%, 62%);
   --clr-blue: hsl(203, 100%, 23%);
@@ -20,9 +20,8 @@
   --fs-900: clamp(2.4883rem, -0.5749rem + 6.8072vi, 7.5938rem);
   --fs-800: clamp(2.0736rem, 0.2803rem + 3.9852vi, 5.0625rem);
   --fs-700: clamp(1.728rem, 0.7398rem + 2.196vi, 3.375rem);
-  --fs-600: clamp(1.44rem, 0.954rem + 1.08vi, 2.25rem);
-  --fs-500: clamp(1.2rem, 1.02rem + 0.4vi, 1.5rem);
-  --fs-400: clamp(1.1rem, 1.01rem + 0vi, 1rem);
+  --fs-500: clamp(1.44rem, 0.954rem + 1.08vi, 2.25rem);
+  --fs-400: clamp(1.2rem, 1.02rem + 0.4vi, 1.5rem);
   --fs-300: clamp(0.7667rem, 0.9333rem + -0.2222vi, 0.8333rem);
 }
 /* --- fonts --- */
@@ -134,6 +133,16 @@ button,
 Link {
   font-family: 'Zwitser', sans-serif;
 }
+/* --- for locomotive --- */
+
+html[data-scroll-orientation='horizontal'] {
+  body {
+    width: fit-content;
+  }
+  [data-scroll-container] {
+    display: flex;
+  }
+}
 
 /*-- colors --*/
 .white {
@@ -238,8 +247,31 @@ Link {
     transition: transform 500ms cubic-bezier(0.79, 0.14, 0.15, 0.86);
   }
 }
-
 .underline-r:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.btn_container {
+  display: grid;
+  align-items: center;
+}
+.btn {
+  background-image: url('../../public/btn.svg');
+  background-repeat: no-repeat;
+  padding: 0.6rem;
+  cursor: pointer;
+  width: fit-content;
+}
+.btn span {
+  margin: 1.8rem;
+  transition: 300ms ease-in-out;
+}
+.btn span:hover {
+  color: var(--clr-black);
+}
+@media (max-width: 62.5em) {
+  .btn_container {
+    margin: 0 auto;
+  }
 }

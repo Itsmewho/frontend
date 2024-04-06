@@ -1,9 +1,20 @@
-import React from 'react'
+/** @format */
+'use client';
+import CLipLoader from 'react-spinners/CircleLoader';
 
-function loading() {
+function loading({ loading }) {
+  const override = {
+    display: 'block',
+    margin : '100px auto'
+  }
   return (
-    <div>loading</div>
-  )
+    <CLipLoader
+      color="ff5e3d"
+      loading={loading}
+      cssOverride={override}
+      size={150}
+      aria-label="Loading Spinner"></CLipLoader>
+  );
 }
 
-export default loading
+export default loading;

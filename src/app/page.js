@@ -3,6 +3,8 @@
 'use client';
 import styles from './Home.module.css';
 import { useEffect } from 'react';
+import ImageHorizontal from '@/components/ImageHorizontal';
+import About from '@/components/About';
 
 export default function Home() {
   useEffect(() => {
@@ -23,7 +25,7 @@ export default function Home() {
           <div className={styles.hero_container}>
             <div className={styles.title_container}>
               <p className="fs-900 ff-serif upper fw">
-                A <span className="accent ff-serif">view</span>
+                A <span className="accent ff-serif italic">view</span>
               </p>
               <p className="fs-900 ff-serif upper fw">Everyone</p>
               <p className="fs-900 ff-serif upper fw">Can Afford</p>
@@ -44,7 +46,9 @@ export default function Home() {
               <div className={styles.btn_container}>
                 <div className={styles.btn_container}>
                   <div className={styles.btn}>
-                    <span className="accent upper l-2">Photo Gallery</span>
+                    <span className="accent upper l-2 fs-400">
+                      Photo Gallery
+                    </span>
                   </div>
                 </div>
               </div>
@@ -52,6 +56,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ImageHorizontal></ImageHorizontal>
+      <About></About>
+
+      <div className={styles.fuck}></div>
     </>
   );
 }

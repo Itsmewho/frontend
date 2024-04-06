@@ -142,36 +142,40 @@ function TermsOfSerice() {
               rights not expressly granted to you in and to the Services,
               Content, and Marks.
             </p>
-            Any breach of these Intellectual Property Rights will constitute a
-            material breach of our Legal Terms and your right to use our
-            Services will terminate immediately. Your submissions Please review
-            this section and the "PROHIBITED ACTIVITIES" section carefully prior
-            to using our Services to understand the (a) rights you give us and
-            (b) obligations you have when you post or upload any content through
-            the Services. Submissions: By directly sending us any question,
-            comment, suggestion, idea, feedback, or other information about the
-            Services ("Submissions"), you agree to assign to us all intellectual
-            property rights in such Submission. You agree that we shall own this
-            Submission and be entitled to its unrestricted use and dissemination
-            for any lawful purpose, commercial or otherwise, without
-            acknowledgment or compensation to you. You are responsible for what
-            you post or upload: By sending us Submissions through any part of
-            the Services you: confirm that you have read and agree with our
-            "PROHIBITED ACTIVITIES" and will not post, send, publish, upload, or
-            transmit through the Services any Submission that is illegal,
-            harassing, hateful, harmful, defamatory, obscene, bullying, abusive,
-            discriminatory, threatening to any person or group, sexually
-            explicit, false, inaccurate, deceitful, or misleading; to the extent
-            permissible by applicable law, waive any and all moral rights to any
-            such Submission; warrant that any such Submission are original to
-            you or that you have the necessary rights and licenses to submit
-            such Submissions and that you have full authority to grant us the
-            above-mentioned rights in relation to your Submissions; and warrant
-            and represent that your Submissions do not constitute confidential
-            information. You are solely responsible for your Submissions and you
-            expressly agree to reimburse us for any and all losses that we may
-            suffer because of your breach of (a) this section, (b) any third
-            party’s intellectual property rights, or (c) applicable law.
+            <p>
+              Any breach of these Intellectual Property Rights will constitute a
+              material breach of our Legal Terms and your right to use our
+              Services will terminate immediately. Your submissions Please
+              review this section and the "PROHIBITED ACTIVITIES" section
+              carefully prior to using our Services to understand the (a) rights
+              you give us and (b) obligations you have when you post or upload
+              any content through the Services. Submissions: By directly sending
+              us any question, comment, suggestion, idea, feedback, or other
+              information about the Services ("Submissions"), you agree to
+              assign to us all intellectual property rights in such Submission.
+              You agree that we shall own this Submission and be entitled to its
+              unrestricted use and dissemination for any lawful purpose,
+              commercial or otherwise, without acknowledgment or compensation to
+              you. You are responsible for what you post or upload: By sending
+              us Submissions through any part of the Services you: confirm that
+              you have read and agree with our "PROHIBITED ACTIVITIES" and will
+              not post, send, publish, upload, or transmit through the Services
+              any Submission that is illegal, harassing, hateful, harmful,
+              defamatory, obscene, bullying, abusive, discriminatory,
+              threatening to any person or group, sexually explicit, false,
+              inaccurate, deceitful, or misleading; to the extent permissible by
+              applicable law, waive any and all moral rights to any such
+              Submission; warrant that any such Submission are original to you
+              or that you have the necessary rights and licenses to submit such
+              Submissions and that you have full authority to grant us the
+              above-mentioned rights in relation to your Submissions; and
+              warrant and represent that your Submissions do not constitute
+              confidential information. You are solely responsible for your
+              Submissions and you expressly agree to reimburse us for any and
+              all losses that we may suffer because of your breach of (a) this
+              section, (b) any third party’s intellectual property rights, or
+              (c) applicable law.
+            </p>
             <h4 className="fw">3. USER REPRESENTATIONS</h4>
             <p>
               By using the Services, you represent and warrant that: (1) you
@@ -331,49 +335,49 @@ function TermsOfSerice() {
               or misleading.
             </p>
             <ul>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions are not unsolicited or unauthorized
                 advertising, promotional materials, pyramid schemes, chain
                 letters, spam, mass mailings, or other forms of solicitation.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions are not obscene, lewd, lascivious, filthy,
                 violent, harassing, libelous, slanderous, or otherwise
                 objectionable (as determined by us).
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions do not ridicule, mock, disparage, intimidate,
                 or abuse anyone.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions are not used to harass or threaten (in the
                 legal sense of those terms) any other person and to promote
                 violence against a specific person or className of people.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions do not violate any applicable law,
                 regulation, or rule.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions do not violate the privacy or publicity
                 rights of any third party.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions do not violate any applicable law concerning
                 child pornography, or otherwise intended to protect the health
                 or well-being of minors.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions do not include any offensive comments that
                 are connected to race, national origin, gender, sexual
                 preference, or physical handicap.
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Your Contributions do not otherwise violate, or link to material
                 that violates, any provision of these Legal Terms, or any
                 applicable law or regulation
               </li>
-              <li>
+              <li className="fs-400 ff-sans">
                 Any use of the Services in violation of the foregoing violates
                 these Legal Terms and may result in, among other things,
                 termination or suspension of your rights to use the Services.
@@ -754,11 +758,11 @@ function TermsOfSerice() {
               contact us at:
             </p>
             <ul>
-              <li>Joanne</li>
-              <li>Meppel</li>
-              <li>Netherlands</li>
-              <li>joanne@Joanne.com</li>
-              <li>Last updated May 01, 2024</li>
+              <li className="fs-400 ff-sans">Joanne</li>
+              <li className="fs-400 ff-sans">Meppel</li>
+              <li className="fs-400 ff-sans">Netherlands</li>
+              <li className="fs-400 ff-sans">joanne@Joanne.com</li>
+              <li className="fs-400 ff-sans">Last updated May 01, 2024</li>
             </ul>
             <h4 className="fw">AGREEMENT TO OUR LEGAL TERMS</h4>
             <p>

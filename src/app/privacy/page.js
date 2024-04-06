@@ -66,20 +66,20 @@ export default function Privacy() {
                 We use the information we collect in various ways, including to:
               </p>
               <ul>
-                <li>Provide, operate, and maintain our website</li>
-                <li>Improve, personalize, and expand our website</li>
-                <li>Understand and analyze how you use our website</li>
-                <li>
+                <li className='fs-400'>Provide, operate, and maintain our website</li>
+                <li className='fs-400'>Improve, personalize, and expand our website</li>
+                <li className='fs-400'>Understand and analyze how you use our website</li>
+                <li className='fs-400'>
                   Develop new products, services, features, and functionality
                 </li>
-                <li>
+                <li className='fs-400'>
                   Communicate with you, either directly or through one of our
                   partners, including for customer service, to provide you with
                   updates and other information relating to the website, and for
                   marketing and promotional purposes
                 </li>
-                <li>Send you emails</li>
-                <li>Find and prevent fraud</li>
+                <li className='fs-400'>Send you emails</li>
+                <li className='fs-400'>Find and prevent fraud</li>
               </ul>
               <h6 className="ff-serif fs-500 fw">Log Files</h6>
               <p>
