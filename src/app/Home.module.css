@@ -1,4 +1,7 @@
 /** @format */
+.fuck{
+  height: 100vh;
+}
 .hero_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -49,6 +52,7 @@
   border-radius: 50%;
   overflow: hidden;
 }
+
 .image {
   background-image: url('../../public/hero_image.webp');
   background-repeat: no-repeat;
@@ -187,6 +191,9 @@
   }
 }
 @media (max-width: 35em) {
+  .title_container{
+    padding-bottom: 3rem;
+  }
   .hero_container {
     padding: 0.3rem;
   }
@@ -199,7 +206,10 @@
   }
   .btn span {
     margin: 1rem;
-    font-size: var(--fs-300);
+    font-size: var(--fs-400);
+  }
+  .cta_container{
+    padding: 0;
   }
 }
 @media (max-width: 22em) {
@@ -208,11 +218,12 @@
     width: 225px;
   }
   .circleImg {
+    background-image: none;
     width: 100%;
   }
   .title_container {
     padding: 0.3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     text-align: center;
   }
   .title_container p:nth-child(1) {

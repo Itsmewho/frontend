@@ -4,6 +4,7 @@ import styles from '../app/styles/ImageHorizontal.module.css';
 import Blogs from '@/gallery.js';
 import Cards from './Cards';
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 function ImageHorizontal() {
   useEffect(() => {
@@ -22,7 +23,7 @@ function ImageHorizontal() {
           <div
             className={styles.intro_container}
             data-scroll
-            data-scroll-offset="180px"
+            data-scroll-offset="100px"
             data-scroll-class={styles.animate}
             data-scroll-repeat="true">
             <h1 className="fs-800 l-bf fw italic">Previous</h1>
@@ -40,7 +41,7 @@ function ImageHorizontal() {
           <div
             className={styles.outro}
             data-scroll
-            data-scroll-offset="180px"
+            data-scroll-offset="100px"
             data-scroll-class={styles.animate}
             data-scroll-repeat="true">
             <div className={styles.p_outro}>
@@ -49,9 +50,11 @@ function ImageHorizontal() {
                 It's a journey of discovery.
               </p>
               <div className={styles.btn_container}>
-                <div className={styles.btn}>
-                  <span className="accent upper fs-400">Go to Shop</span>
-                </div>
+                <Link href="/gallery">
+                  <div className={styles.btn}>
+                    <span className="accent upper fs-400">Go to gallery</span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

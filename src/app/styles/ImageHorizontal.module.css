@@ -4,7 +4,7 @@
   opacity: 0;
   text-align: center;
   margin-bottom: 4rem;
-  padding: 5rem;
+  padding: 2rem;
   line-height: 1;
   letter-spacing: 5px;
   transition: 500ms cubic-bezier(0.76, 0, 0.24, 1);
@@ -38,10 +38,11 @@
   margin: 0 5rem;
 }
 .outro {
+  opacity: 0;
   display: flex;
   text-align: center;
   justify-content: space-around;
-  padding-top: 6rem;
+  padding-top: 8rem;
   width: 70%;
   margin: 0 auto;
 }
@@ -52,7 +53,7 @@
 .btn_container {
   display: flex;
   width: fit-content;
-  padding: 3rem;
+  padding-top: 3rem;
   margin: 0 auto;
 }
 
@@ -89,7 +90,7 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr;
   }
   .btn_container {
     margin: 0 auto;
@@ -101,6 +102,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
   }
   .intro_container {
     text-align: center;
@@ -108,6 +111,15 @@
     line-height: 1;
     letter-spacing: 5px;
     margin-top: 0rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+  }
+  .outro {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 22em) {
+  .btn span {
+    font-size: var(--fs-300);
   }
 }

@@ -3,10 +3,15 @@
 'use client';
 import styles from './Home.module.css';
 import { useEffect } from 'react';
-import ImageHorizontal from '@/components/ImageHorizontal';
-import About from '@/components/About';
+import Link from 'next/link';
+import dynamic from 'next/dynamic';
 
 export default function Home() {
+  const ImageHorizontal = dynamic(() =>
+    import('../components/ImageHorizontal')
+  );
+  const About = dynamic(() => import('../components/About'), { ssr: false });
+
   useEffect(() => {
     async function getLocomotive() {
       const Locomotive = (await import('locomotive-scroll')).default;
@@ -45,11 +50,13 @@ export default function Home() {
               </p>
               <div className={styles.btn_container}>
                 <div className={styles.btn_container}>
-                  <div className={styles.btn}>
-                    <span className="accent upper l-2 fs-400">
-                      Photo Gallery
-                    </span>
-                  </div>
+                  <Link href="/shop">
+                    <div className={styles.btn}>
+                      <span className="accent upper l-2 fs-400">
+                        Go to shop
+                      </span>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

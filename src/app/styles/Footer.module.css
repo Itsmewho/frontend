@@ -44,3 +44,16 @@
     transform: rotate(0deg);
   }
 }
+@media (max-width: 35em){
+  .footer_container{
+    padding: 2rem 0;
+    border-radius: 0;
+  }
+  .link_container{
+    display: grid;
+    justify-content: center;
+  }
+  .brand{
+    margin: 0;
+  }
+}
