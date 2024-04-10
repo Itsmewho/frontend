@@ -2,9 +2,9 @@
 
 import localfonttwo from 'next/font/local';
 import './globals.css';
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import Cookie from '@/components/Cookie';
+import Footer from '@/app/components/Footer';
+import Header from '@/app/components/Header';
+import Cookie from '@/app/components/Cookie';
 import clsx from 'clsx';
 
 const sans = localfonttwo({

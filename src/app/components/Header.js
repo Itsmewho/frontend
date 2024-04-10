@@ -1,6 +1,6 @@
 /** @format */
 'use client';
-import styles from '../app/styles/Header.module.css';
+import styles from '../styles/Header.module.css';
 import Image from 'next/image';
 import clsx from 'clsx';
 import { useState } from 'react';
@@ -101,8 +101,8 @@ function Header() {
                   isActive ? styles.nav_links_close : styles.nav_links
                 }`}
                 onClick={navToggle}>
-                <Link href="/gallery">
-                  <span className="black ff-serif underline-r">Gallery</span>
+                <Link href="/shop">
+                  <span className="black ff-serif underline-r">Shop</span>
                 </Link>
               </li>
               <li

@@ -1,7 +1,7 @@
 /** @format */
 'use client';
 import { useEffect, useState } from 'react';
-import styles from '../app/styles/Cookie.module.css';
+import styles from '../styles/Cookie.module.css';
 import { hasCookie, setCookie } from 'cookies-next';
 import Link from 'next/link';
 

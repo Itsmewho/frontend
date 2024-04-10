@@ -1,6 +1,6 @@
 /** @format */
 
-const Blogs = [
+const Shoots = [
   {
     _id: '1',
     name: 'Elizabeth',
@@ -195,4 +195,4 @@ const Blogs = [
   },
 ];
 
-export default Blogs;
+export default Shoots;

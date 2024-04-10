@@ -1,6 +1,6 @@
 /** @format */
 'use client';
-import styles from '../app/styles/About.module.css';
+import styles from '../styles/About.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
@@ -42,7 +42,7 @@ function About() {
                     <div
                       className={styles.image}
                       data-scroll
-                      data-scroll-class={styles.fadeIn}
+                      data-scroll-class={styles.scale}
                     />
                   </div>
                 </div>
@@ -51,10 +51,7 @@ function About() {
             <div className={styles.rightside}>
               <div className={styles.circle_container}>
                 <div className={styles.circle_wrapper}>
-                  <div
-                    className={styles.circle}
-                    data-scroll
-                    data-scroll-class={styles.fadeIn}>
+                  <div className={styles.circle}>
                     <Image
                       src="/Social-min.png"
                       alt="Socail image"

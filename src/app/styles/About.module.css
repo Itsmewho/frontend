@@ -5,6 +5,9 @@
   grid-template-columns: 1.1fr 0.8fr;
   grid-template-rows: 1fr;
 }
+.about_container{
+  margin-bottom: 5rem;
+}
 
 .leftside {
   position: relative;
@@ -68,7 +71,6 @@
   /* --- ratio 1.55 --- */
   border-radius: 50%;
   box-shadow: 5px 5px 5px rgba(182, 182, 182, 0.1);
-  transform: scale(1.3);
   opacity: 0;
 }
 
@@ -88,10 +90,10 @@
   height: fit-content;
 }
 .circle {
-  opacity: 0;
   padding: 1rem;
   animation: rotate 25s infinite;
 }
+
 .text_container {
   display: grid;
   align-items: end;
@@ -135,7 +137,7 @@
 }
 
 .scale {
-  animation: scale 500ms cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  animation: scale 800ms cubic-bezier(0.76, 0, 0.24, 1) forwards;
   animation-delay: 200ms;
 }
 .fadeIn {
@@ -208,16 +210,16 @@
     flex-direction: column;
     padding: 0;
   }
-  .leftside{
-    display:grid;
+  .leftside {
+    display: grid;
     justify-content: center;
     width: 100%;
   }
-  .wrapper{
+  .wrapper {
     display: none;
     padding: 0;
   }
-  .image_container{
+  .image_container {
     padding: 0;
     display: grid;
     justify-content: center;
@@ -225,24 +227,23 @@
     width: 100%;
   }
 
-  .rightside{
-    display:grid;
+  .rightside {
+    display: grid;
     justify-content: center;
   }
-  .text_wrapper{
+  .text_wrapper {
     padding-top: 3rem;
     text-align: center;
   }
-  .btn_container{
+  .btn_container {
     justify-content: center;
   }
-  .circle_container{
+  .circle_container {
     order: 2;
     display: flex;
     justify-content: center;
     margin: 0;
   }
-
 }
 @media (max-width: 45em) {
   .circleImg {
@@ -271,13 +272,12 @@
     padding: 2rem 0.5rem;
     width: 100%;
   }
-  .rightside{
+  .rightside {
     width: 100%;
   }
-  .circle_wrapper{
+  .circle_wrapper {
     padding: 0.5rem;
   }
-  
 }
 @media (max-width: 22em) {
   .image {

@@ -8,9 +8,10 @@ import dynamic from 'next/dynamic';
 
 export default function Home() {
   const ImageHorizontal = dynamic(() =>
-    import('../components/ImageHorizontal')
+    import('./components/ImageHorizontal', { ssr: false })
   );
-  const About = dynamic(() => import('../components/About'), { ssr: false });
+
+  const About = dynamic(() => import('./components/About'), { ssr: false });
 
   useEffect(() => {
     async function getLocomotive() {
@@ -65,8 +66,6 @@ export default function Home() {
       </section>
       <ImageHorizontal></ImageHorizontal>
       <About></About>
-
-      <div className={styles.fuck}></div>
     </>
   );
 }
