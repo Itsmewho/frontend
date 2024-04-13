@@ -1,0 +1,135 @@
+/** @format */
+
+.shop_container {
+  display: flex;
+  padding: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+.gridtext {
+  display: grid;
+}
+/* --- Card --- */
+.card_container {
+  opacity: 0;
+  background-color: var(--clr-creme);
+  border-radius: 15px;
+  padding: 1.5rem;
+  position: relative;
+  box-shadow: 5px 5px 15px #dbdad94a;
+  animation: fadeIn 500ms cubic-bezier(0.79, 0.14, 0.15, 0.86) forwards;
+}
+.slider {
+  position: relative;
+  width: fit-content;
+}
+.slider_container {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 400px;
+  aspect-ratio: 16/9;
+  border-radius: 15px;
+}
+
+.slider_image {
+  height: 100%;
+  width: 100%;
+  transition: translate 300ms cubic-bezier(0.79, 0.14, 0.15, 0.86);
+  transform: scale(1.1);
+  animation: Scale 800ms cubic-bezier(0.79, 0.14, 0.15, 0.86) forwards;
+}
+
+.arrow_left,
+.arrow_right {
+  all: unset;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  padding: 1rem;
+  opacity: 0.25;
+}
+.arrow_left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.arrow_right {
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.description {
+  opacity: 0;
+  max-width: 40ch;
+  padding: 0.2rem;
+  display: grid;
+  justify-content: space-between;
+  animation: fadeIn 500ms cubic-bezier(0.79, 0.14, 0.15, 0.86) forwards;
+  animation-delay: 200ms;
+}
+.description p {
+  padding: 1rem 0 8rem 0;
+}
+
+/* --- btn --- */
+
+.btn_container {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.btn {
+  background-image: url('../../../public/btn.svg');
+  background-repeat: no-repeat;
+  padding: 0.6rem;
+  cursor: pointer;
+  width: fit-content;
+}
+.btn span {
+  margin: 1.8rem;
+  transition: 300ms ease-in-out;
+}
+.btn span:hover {
+  color: var(--clr-black);
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Scale {
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 35em) {
+  .shop_container {
+    padding: 0.5rem;
+  }
+  .description p {
+    padding: 1rem 0 8rem 0;
+  }
+  .slider_container {
+    height: 100%;
+    width: 300px;
+  }
+  .arrow_left {
+    display: none;
+  }
+  .arrow_right {
+    display: none;
+  }
+  .gridtext{
+    padding-top: 0.5rem;
+  }
+}

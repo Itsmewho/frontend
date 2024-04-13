@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
+
 export default function Home() {
   const ImageHorizontal = dynamic(() =>
     import('./components/ImageHorizontal', { ssr: false })
@@ -23,7 +24,8 @@ export default function Home() {
 
     getLocomotive();
   }, []);
-
+  
+ 
   return (
     <>
       <section>
@@ -44,7 +46,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.cta_container}>
-              <p className="fs-400">
+              <p className="fs-400 l-m">
                 Where sensuality meets playfulness. Explore my world of
                 temptation, while subtly giving you warmth and comfort, creating
                 an new experience.

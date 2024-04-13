@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Joanne',
   description: 'hello world',
 };
-function DetailShop() {
+function DetailShop({ shoots }) {
   return <div>ShopDetail</div>;
 }
 

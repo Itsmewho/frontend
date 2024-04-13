@@ -1,7 +1,7 @@
 /** @format */
 'use client';
 import styles from '../styles/ImageHorizontal.module.css';
-import Shoots from '@/gallery.js';
+import Shoots from '@/gallery.json';
 import Cards from './Cards';
 import { useEffect } from 'react';
 import Link from 'next/link';

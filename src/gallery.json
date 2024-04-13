@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Amsterdam",
+    "price": "10.00",
+    "image": "/recover.jpg",
+    "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
+    "short": "The variety of workouts keeps me engaged, and the nutritional",
+    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+  },
+  {
+    "name": "Paris",
+    "price": "10.00",
+    "image": "/recover.jpg",
+    "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
+    "short": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely ",
+    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+  },
+  {
+    "name": "Paris",
+    "price": "10.00",
+    "image": "/recover.jpg",
+    "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
+    "short": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely ",
+    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+  },
+  {
+    "name": "New York",
+    "price": "10.00",
+    "image": "/recover.jpg",
+    "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
+    "short": "The variety of workouts keeps me engaged, and the nutritional guidance my lifestyle. Ive never felt stronger or healthier!",
+    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+  },
+  {
+    "name": "LA",
+    "price": "10.00",
+    "image": "/recover.jpg",
+    "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
+    "short": "my lifestyle. Ive never felt stronger or healthier!",
+    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+  },
+  {
+    "name": "Boston",
+    "price": "10.00",
+    "image": "/recover.jpg",
+    "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
+    "short": "The variety of workouts keeps me engaged, and the nutritional transform my lifestyle. Ive never felt stronger or healthier!",
+    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+  }
+]

@@ -135,6 +135,7 @@ function Header() {
                   alt="Iamge of the brand"
                   height={73}
                   width={160}
+                  priority={true}
                 />
               </Link>
             </div>

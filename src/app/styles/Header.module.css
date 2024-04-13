@@ -322,4 +322,8 @@
   .nav_center {
     font-size: var(--fs-900);
   }
+  .center_container {
+    padding: 0;
+    display: none;
+  }
 }

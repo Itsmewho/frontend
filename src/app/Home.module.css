@@ -209,7 +209,7 @@
     font-size: var(--fs-400);
   }
   .cta_container{
-    padding: 0;
+    padding: 1rem;
   }
 }
 @media (max-width: 22em) {
