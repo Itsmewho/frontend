@@ -1,15 +1,18 @@
 /** @format */
 
 import styles from './Shop.module.css';
-import Shoots from '@/gallery.json';
 import ShopCards from '../components/ShopCards';
+import { fetchShoots } from '@/utils/request';
+
 
 export const metadata = {
   title: 'Joanne',
   description: 'hello world',
 };
 
-function Shop()  {
+
+const Shop = async () => {
+  const Shoots = await fetchShoots();
 
   return (
     <>
@@ -26,6 +29,6 @@ function Shop()  {
       </section>
     </>
   );
-}
+};
 
 export default Shop;

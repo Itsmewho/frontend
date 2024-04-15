@@ -6,9 +6,9 @@ import styles from '../shop/Shop.module.css';
 import Image from 'next/image';
 
 function ShopCards({ shoots }) {
-  const image = `${shoots.images[0]}`;
-  const image1 = `${shoots.images[2]}`;
-  const image2 = `${shoots.images[3]}`;
+  const image = `${shoots.images[2]}`;
+  const image1 = `${shoots.images[3]}`;
+  const image2 = `${shoots.images[4]}`;
 
   const imgArry = [image, image1, image2];
 
@@ -70,7 +70,7 @@ function ShopCards({ shoots }) {
             <span className="ff-serif fw fs-400 l-m italic l-2">
               {shoots.name}
             </span>
-            <span className='l-4'>${shoots.price}</span>
+            <span className="l-4">${shoots.price}</span>
             <span>*With commercial license</span>
             <p className="ff-sans fs-400 l-s">{shoots.short}</p>
           </div>

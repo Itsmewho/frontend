@@ -1,5 +1,6 @@
 [
   {
+    "owner": "3",
     "name": "Amsterdam",
     "price": "10.00",
     "image": "/recover.jpg",
@@ -14,6 +15,7 @@
     "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
   },
   {
+    "owner": "2",
     "name": "Paris",
     "price": "10.00",
     "image": "/recover.jpg",
@@ -28,6 +30,7 @@
     "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
   },
   {
+    "owner": "1",
     "name": "Paris",
     "price": "10.00",
     "image": "/recover.jpg",
@@ -42,6 +45,7 @@
     "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
   },
   {
+    "owner": "4",
     "name": "New York",
     "price": "10.00",
     "image": "/recover.jpg",
@@ -56,6 +60,7 @@
     "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
   },
   {
+    "owner": "5",
     "name": "LA",
     "price": "10.00",
     "image": "/recover.jpg",
@@ -70,6 +75,7 @@
     "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
   },
   {
+    "owner": "6",
     "name": "Boston",
     "price": "10.00",
     "image": "/recover.jpg",

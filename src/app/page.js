@@ -1,31 +1,17 @@
 /** @format */
-
-'use client';
 import styles from './Home.module.css';
-import { useEffect } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
+const ImageHorizontal = dynamic(() =>
+  import('./components/ImageHorizontal', { ssr: false })
+);
+
+const About = dynamic(() => import('./components/About'));
 
 export default function Home() {
-  const ImageHorizontal = dynamic(() =>
-    import('./components/ImageHorizontal', { ssr: false })
-  );
 
-  const About = dynamic(() => import('./components/About'), { ssr: false });
 
-  useEffect(() => {
-    async function getLocomotive() {
-      const Locomotive = (await import('locomotive-scroll')).default;
-      new Locomotive({
-        smooth: true,
-      });
-    }
-
-    getLocomotive();
-  }, []);
-  
- 
   return (
     <>
       <section>
