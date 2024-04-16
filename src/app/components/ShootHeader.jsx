@@ -1,7 +1,7 @@
 /** @format */
 
 import Image from 'next/image';
-import styles from '../shop/[id]/DetailShop.module.css';
+import styles from '../shoots/[id]/DetailShoot.module.css';
 import Link from 'next/link';
 
 function ShootHeader({ image, alt, name }) {
@@ -29,7 +29,7 @@ function ShootHeader({ image, alt, name }) {
           <div className="page-wrapper">
             <div className={styles.back}>
               <div className={styles.btn_container}>
-                <Link href="/shop">
+                <Link href="/shoots">
                   <div className={styles.btn}>
                     <span className="accent upper fs-400">Go Back</span>
                   </div>

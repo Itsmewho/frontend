@@ -28,16 +28,11 @@ function Cookie() {
       <div className={styles.cookie_container}>
         <div className={styles.cookie_bar}>
           <p className={styles.intro}>
-            This website uses cookies to improve user experience. By using our
+            This website uses cookies to improve user experience. By using my
             website you consent to the{' '}
             <Link href="/privacy">
               <span className="fw l-s upper white">privacy</span>
             </Link>{' '}
-            statement and to our{' '}
-            <Link href="/termsOfService">
-              <span className="fw l-s upper white">Service</span>
-            </Link>{' '}
-            Statement
           </p>
           <div className={styles.btn_container} onClick={acceptCookies}>
             <div className={styles.btn}>

@@ -2,10 +2,10 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import styles from '../shop/Shop.module.css';
+import styles from '../shoots/Shoot.module.css';
 import Image from 'next/image';
 
-function ShopCards({ shoots }) {
+function ShootCards({ shoots }) {
   const image = `${shoots.images[2]}`;
   const image1 = `${shoots.images[3]}`;
   const image2 = `${shoots.images[4]}`;
@@ -75,7 +75,7 @@ function ShopCards({ shoots }) {
             <p className="ff-sans fs-400 l-s">{shoots.short}</p>
           </div>
           <div className={styles.btn_container}>
-            <Link href={`/shop/${shoots._id}`}>
+            <Link href={`/shoots/${shoots._id}`}>
               <div className={styles.btn}>
                 <span className="accent upper fs-400">Go Items</span>
               </div>
@@ -87,4 +87,4 @@ function ShopCards({ shoots }) {
   );
 }
 
-export default ShopCards;
+export default ShootCards;

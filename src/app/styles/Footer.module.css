@@ -26,7 +26,7 @@
 .regulations {
   width: 200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
 }
 .regulations span:hover{

@@ -39,10 +39,10 @@ export default function Home() {
               </p>
               <div className={styles.btn_container}>
                 <div className={styles.btn_container}>
-                  <Link href="/shop">
+                  <Link href="/shoots">
                     <div className={styles.btn}>
                       <span className="accent upper l-2 fs-400">
-                        Go to shop
+                        Go to shoots
                       </span>
                     </div>
                   </Link>

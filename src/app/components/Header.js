@@ -10,11 +10,9 @@ function Header() {
   const [isActive, setActive] = useState(true);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-
-  const navToggle2 = () =>{
+  const navToggle2 = () => {
     setActive(!isActive);
-
-  }
+  };
   const navToggle = () => {
     setActive(!isActive);
     window.scrollTo(0, 0);
@@ -26,40 +24,6 @@ function Header() {
         className={`${isActive ? styles.navigation : styles.navigation_open}`}>
         <div className={styles.nav_wrapper}>
           <div className={styles.closing_container}>
-            <div className={styles.ecom_container}>
-              <div className={styles.header_icon}>
-                {isLoggedIn && (
-                  <Link href="/login" onClick={navToggle}>
-                    <Image
-                      src="/user-check.svg"
-                      alt="User login"
-                      height={45}
-                      width={45}
-                    />
-                  </Link>
-                )}
-                {!isLoggedIn && (
-                  <Link href="/login" onClick={navToggle}>
-                    <Image
-                      src="/user.svg"
-                      alt="User login"
-                      height={45}
-                      width={45}
-                    />
-                  </Link>
-                )}
-              </div>
-              <div className={styles.header_icon}>
-                <Link href="/cart" onClick={navToggle}>
-                  <Image
-                    src="/shopping-cart.svg"
-                    alt="Cart"
-                    height={45}
-                    width={45}
-                  />
-                </Link>
-              </div>
-            </div>
             <div className={styles.menu_container} onClick={navToggle}>
               <div
                 className={`${styles.burger} ${
@@ -92,17 +56,8 @@ function Header() {
                   isActive ? styles.nav_links_close : styles.nav_links
                 }`}
                 onClick={navToggle}>
-                <Link href="/blog">
-                  <span className="black ff-serif underline-r">Blog</span>
-                </Link>
-              </li>
-              <li
-                className={`${
-                  isActive ? styles.nav_links_close : styles.nav_links
-                }`}
-                onClick={navToggle}>
-                <Link href="/shop">
-                  <span className="black ff-serif underline-r">Shop</span>
+                <Link href="/shoots">
+                  <span className="black ff-serif underline-r">Shoots</span>
                 </Link>
               </li>
               <li
@@ -136,40 +91,6 @@ function Header() {
                   height={73}
                   width={160}
                   priority={true}
-                />
-              </Link>
-            </div>
-          </div>
-          <div className={styles.ecom_container}>
-            <div className={styles.header_icon}>
-              {isLoggedIn && (
-                <Link href="/login">
-                  <Image
-                    src="/user-check.svg"
-                    alt="User login"
-                    height={45}
-                    width={45}
-                  />
-                </Link>
-              )}
-              {!isLoggedIn && (
-                <Link href="/login">
-                  <Image
-                    src="/user.svg"
-                    alt="User login"
-                    height={45}
-                    width={45}
-                  />
-                </Link>
-              )}
-            </div>
-            <div className={styles.header_icon}>
-              <Link href="/cart">
-                <Image
-                  src="/shopping-cart.svg"
-                  alt="Cart"
-                  height={45}
-                  width={45}
                 />
               </Link>
             </div>

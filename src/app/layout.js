@@ -19,14 +19,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      {/* --- No sreenReaders XD --- */}
-      <body>
-        <Header></Header>
-        <main className={clsx('main', sans.className)}>{children}</main>
-        <Cookie></Cookie>
-        <Footer></Footer>
-      </body>
-    </html>
+      <html lang="en">
+        {/* --- No sreenReaders XD --- */}
+        <body>
+          <Header></Header>
+          <main className={clsx('main', sans.className)}>{children}</main>
+          <Cookie></Cookie>
+          <Footer></Footer>
+        </body>
+      </html>
   );
 }

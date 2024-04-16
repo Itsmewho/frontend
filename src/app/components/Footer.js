@@ -43,8 +43,8 @@ function Footer() {
                 </Link>
               </div>
               <div className={styles.animate}>
-                <Link href="/charity">
-                  <Image src="/leaf.svg" alt="Charity" height={50} width={50} />
+                <Link href="/">
+                  <Image src="/lock-keyhole-open.svg" alt="OF" height={50} width={50} />
                 </Link>
               </div>
             </div>
@@ -52,9 +52,6 @@ function Footer() {
           <div className={styles.regulations}>
             <Link href="/privacy">
               <span className="white fw l-m">Privacy</span>
-            </Link>
-            <Link href="/termsOfService">
-              <span className="white fw l-m">Service</span>
             </Link>
           </div>
         </div>

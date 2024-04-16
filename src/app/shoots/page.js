@@ -1,7 +1,7 @@
 /** @format */
 
-import styles from './Shop.module.css';
-import ShopCards from '../components/ShopCards';
+import styles from './Shoot.module.css';
+import ShopCards from '../components/ShootCards';
 import { fetchShoots } from '@/utils/request';
 
 
