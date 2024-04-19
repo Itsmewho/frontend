@@ -83,7 +83,7 @@ function About() {
                     today. Joanne invites you to join her on journey.
                   </p>
                   <div className={styles.btn_container}>
-                    <Link href="/about">
+                    <Link href="/about" prefetch={false}>
                       <div className={styles.btn}>
                         <span className="accent upper fs-400">
                           About Joanne

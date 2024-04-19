@@ -29,7 +29,7 @@ function ShootHeader({ image, alt, name }) {
           <div className="page-wrapper">
             <div className={styles.back}>
               <div className={styles.btn_container}>
-                <Link href="/shoots">
+                <Link href="/shoots" prefetch={false}>
                   <div className={styles.btn}>
                     <span className="accent upper fs-400">Go Back</span>
                   </div>

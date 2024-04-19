@@ -8,9 +8,8 @@ export const GET = async (request) => {
   try {
     await connectDB();
 
-
     const shoots = await Shoots.find({});
-    
+
     return new Response(JSON.stringify(shoots), {
       status: 200,
     });

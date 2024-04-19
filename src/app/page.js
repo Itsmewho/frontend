@@ -6,8 +6,11 @@ import dynamic from 'next/dynamic';
 const ImageHorizontal = dynamic(() =>
   import('./components/ImageHorizontal', { ssr: false })
 );
-
 const About = dynamic(() => import('./components/About'));
+
+
+
+
 
 export default function Home() {
 
@@ -52,8 +55,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <ImageHorizontal></ImageHorizontal>
       <About></About>
+      <ImageHorizontal></ImageHorizontal>
     </>
   );
 }

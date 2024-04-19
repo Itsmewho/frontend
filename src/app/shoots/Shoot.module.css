@@ -27,6 +27,7 @@
 .slider {
   position: relative;
   width: fit-content;
+  margin: 0 auto;
 }
 .slider_container {
   display: flex;
@@ -101,6 +102,35 @@
 .btn span:hover {
   color: var(--clr-black);
 }
+/* --- paginations --- */
+
+.center{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.center div{
+  padding: 0.5rem;
+}
+.nbtn{
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--clr-black);
+  transition: 300ms;
+}
+.nbtn:hover{
+  background-color: var(--clr-accent);
+}
+
+/* --- Detailpage --- */
+
+
+
+
 @keyframes fadeIn {
   to {
     opacity: 1;

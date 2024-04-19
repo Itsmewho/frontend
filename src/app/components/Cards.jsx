@@ -19,10 +19,13 @@ function Cards({ gallery }) {
               sizes="100vw"
               className={styles.card_image}></Image>
           </div>
-          <Link href={`/shop/${gallery._id}`}>
+          <Link href={`/shoots/${gallery._id}`}>
             <div className={styles.overlay}>
               <span
-                className={clsx('upper ff-serif l-b white fs-500', styles.text)}>
+                className={clsx(
+                  'upper ff-serif l-b white fs-500',
+                  styles.text
+                )}>
                 VIEW
               </span>
             </div>

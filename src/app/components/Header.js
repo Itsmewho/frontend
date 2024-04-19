@@ -38,7 +38,7 @@ function Header() {
                   isActive ? styles.nav_links_close : styles.nav_links
                 }`}
                 onClick={navToggle}>
-                <Link href="/">
+                <Link href="/" prefetch={false}>
                   <span className="black ff-serif underline-r">Home</span>
                 </Link>
               </li>
@@ -47,7 +47,7 @@ function Header() {
                   isActive ? styles.nav_links_close : styles.nav_links
                 }`}
                 onClick={navToggle}>
-                <Link href="/about">
+                <Link href="/about" prefetch={false}>
                   <span className="black ff-serif underline-r">About</span>
                 </Link>
               </li>
@@ -65,7 +65,7 @@ function Header() {
                   isActive ? styles.nav_links_close : styles.nav_links
                 }`}
                 onClick={navToggle}>
-                <Link href="/contact">
+                <Link href="/contact" prefetch={false}>
                   <span className="black ff-serif underline-r">Contact</span>
                 </Link>
               </li>
@@ -75,15 +75,9 @@ function Header() {
       </div>
       <div className={styles.animation}>
         <nav className={styles.nav_container}>
-          <div className={styles.menu_container} onClick={navToggle2}>
-            <div
-              className={`${styles.burger} ${
-                isActive ? '' : styles.burgerActive
-              }`}></div>
-          </div>
           <div className={styles.center_container}>
             <div className={styles.brand_container}>
-              <Link href="/">
+              <Link href="/" prefetch={false}>
                 <Image
                   className={styles.image}
                   src="/Brand.png"
@@ -94,6 +88,12 @@ function Header() {
                 />
               </Link>
             </div>
+          </div>
+          <div className={styles.menu_container} onClick={navToggle2}>
+            <div
+              className={`${styles.burger} ${
+                isActive ? '' : styles.burgerActive
+              }`}></div>
           </div>
         </nav>
       </div>

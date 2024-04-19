@@ -30,7 +30,7 @@ function Cookie() {
           <p className={styles.intro}>
             This website uses cookies to improve user experience. By using my
             website you consent to the{' '}
-            <Link href="/privacy">
+            <Link href="/privacy" prefetch={false}>
               <span className="fw l-s upper white">privacy</span>
             </Link>{' '}
           </p>

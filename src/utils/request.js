@@ -27,17 +27,13 @@ async function fetchShoot(id) {
     if (!apiDomain) {
       return null;
     }
-    const res = await fetch(`${apiDomain}/shoots/${id}`);
-
-
+    const res = await fetch(`${apiDomain}/shoots/${id}`, {
+      method: 'GET',
+    });
     if (!res.ok) {
       throw new Error('failed to get the data');
     }
-
-
     return res.json();
-
-    
   } catch (error) {
     console.log('Server not working 02');
     return null;

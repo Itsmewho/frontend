@@ -7,8 +7,19 @@ export const metadata = {
   description: 'hello world',
 };
 
-function Contact() {
-  return <div>Contact</div>;
+function Contact(props) {
+  const { products } = props;
+  return (
+    <>
+      <section className="page-wrapper">
+        <ul>
+          {/* {products.map((product) => (
+            <li key={product.id}>{product.title}</li>
+          ))} */}
+        </ul>
+      </section>
+    </>
+  );
 }
 
 export default Contact;

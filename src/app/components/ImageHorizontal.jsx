@@ -43,6 +43,7 @@ const ImageHorizontal = async () => {
           </div>
         </div>
       </section>
+      <section className="page-wrapper"></section>
     </>
   );
 };

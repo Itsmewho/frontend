@@ -11,7 +11,7 @@ function Footer() {
         <div className={styles.footer_container}>
           <div className={styles.link_container}>
             <div className={styles.brand}>
-              <Link href="/">
+              <Link href="/" prefetch={false}>
                 <Image
                   className={styles.image}
                   src="/Brandlight.png"
@@ -23,7 +23,7 @@ function Footer() {
             </div>
             <div className={styles.social}>
               <div className={styles.animate}>
-                <Link href={''}>
+                <Link href={''} prefetch={false}>
                   <Image
                     src="/instagram.svg"
                     alt="Instagram icon"
@@ -33,7 +33,7 @@ function Footer() {
                 </Link>
               </div>
               <div className={styles.animate}>
-                <Link href={''}>
+                <Link href={''} prefetch={false}>
                   <Image
                     src="/tiktok.svg"
                     alt="Tiktok icon"
@@ -43,14 +43,14 @@ function Footer() {
                 </Link>
               </div>
               <div className={styles.animate}>
-                <Link href="/">
+                <Link href="/" prefetch={false}>
                   <Image src="/lock-keyhole-open.svg" alt="OF" height={50} width={50} />
                 </Link>
               </div>
             </div>
           </div>
           <div className={styles.regulations}>
-            <Link href="/privacy">
+            <Link href="/privacy" prefetch={false}>
               <span className="white fw l-m">Privacy</span>
             </Link>
           </div>
