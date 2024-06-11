@@ -307,10 +307,6 @@
   }
   .center_container {
     padding: 0;
-    display: none;
-  }
-  .ecom_container {
-    gap: 0.5rem;
   }
   .closing_container {
     padding: 0.5rem;
@@ -323,6 +319,5 @@
   }
   .center_container {
     padding: 0;
-    display: none;
   }
 }

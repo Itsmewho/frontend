@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 function Footer() {
-  
   return (
     <>
       <div className="page-wrapper">
@@ -33,18 +32,13 @@ function Footer() {
                 </Link>
               </div>
               <div className={styles.animate}>
-                <Link href={''} prefetch={false}>
+                <Link href="/" prefetch={false}>
                   <Image
-                    src="/tiktok.svg"
-                    alt="Tiktok icon"
+                    src="/lock-keyhole-open.svg"
+                    alt="OF"
                     height={50}
                     width={50}
                   />
-                </Link>
-              </div>
-              <div className={styles.animate}>
-                <Link href="/" prefetch={false}>
-                  <Image src="/lock-keyhole-open.svg" alt="OF" height={50} width={50} />
                 </Link>
               </div>
             </div>

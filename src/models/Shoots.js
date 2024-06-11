@@ -17,6 +17,10 @@ const ShootsSchema = new Schema(
       type: String,
       required: true,
     },
+    intro: {
+      type: String,
+      required: true,
+    },
     description: {
       type: String,
       required: true,
@@ -25,15 +29,37 @@ const ShootsSchema = new Schema(
       type: String,
       required: true,
     },
-    alt: {
+    paragraph: [
+      {
+        type: String,
+      },
+    ],
+    title: {
       type: String,
       required: true,
     },
-    price: {
-      type: String,
-      required: true,
-    },
+    alt: [
+      {
+        type: String,
+      },
+    ],
     image: {
+      type: String,
+      required: true,
+    },
+    card: {
+      type: String,
+      required: true,
+    },
+    thumb: {
+      type: String,
+      required: true,
+    },
+    banner: {
+      type: String,
+      required: true,
+    },
+    og: {
       type: String,
       required: true,
     },

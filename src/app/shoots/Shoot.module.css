@@ -15,6 +15,7 @@
   display: grid;
 }
 /* --- Card --- */
+
 .card_container {
   opacity: 0;
   background-color: var(--clr-creme);
@@ -41,7 +42,6 @@
 .slider_image {
   height: 100%;
   width: 100%;
-  transition: translate 300ms cubic-bezier(0.79, 0.14, 0.15, 0.86);
   transform: scale(1.1);
   animation: Scale 800ms cubic-bezier(0.79, 0.14, 0.15, 0.86) forwards;
 }
@@ -125,19 +125,23 @@
 .nbtn:hover{
   background-color: var(--clr-accent);
 }
-
-/* --- Detailpage --- */
-
-
-
+.lightbox{
+  margin-top: 1rem;
+}
 
 @keyframes fadeIn {
-  to {
+  0% {
+    opacity: 0;
+  }
+  100%{
     opacity: 1;
   }
 }
 @keyframes Scale {
-  to {
+  0% {
+    transform: scale(1.1);
+  }
+  100%{
     transform: scale(1);
   }
 }
@@ -161,5 +165,8 @@
   }
   .gridtext{
     padding-top: 0.5rem;
+  }
+  .lightbox{
+    margin-bottom: 1rem;
   }
 }

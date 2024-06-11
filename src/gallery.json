@@ -2,91 +2,193 @@
   {
     "owner": "3",
     "name": "Amsterdam",
-    "price": "10.00",
+    "title": "Amsterdam",
+    "intro": "Amsterdam",
     "image": "/recover.jpg",
+    "thumb": "/recover.jpg",
+    "card": "/recover.jpg",
+    "banner": "/recover.jpg",
+    "og": "/recover.jpg",
     "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "paragraph": [
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional"
+    ],
+    "alt": [
       "/recover.jpg",
       "/sample.jpg",
       "/recover.jpg",
       "/mobile-Recovered.jpg"
     ],
     "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
-    "short": "The variety of workouts keeps me engaged, and the nutritional",
-    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+    "short": "The variety of workouts keeps me engaged, and the nutritional"
   },
   {
     "owner": "2",
-    "name": "Paris",
-    "price": "10.00",
+    "title": "Amsterdam",
+    "intro": "Amsterdam",
     "image": "/recover.jpg",
+    "thumb": "/recover.jpg",
+    "card": "/recover.jpg",
+    "banner": "/recover.jpg",
+    "og": "/recover.jpg",
     "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "paragraph": [
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional"
+    ],
+    "alt": [
       "/recover.jpg",
       "/sample.jpg",
       "/recover.jpg",
       "/mobile-Recovered.jpg"
     ],
     "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
-    "short": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely ",
-    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+    "short": "The variety of workouts keeps me engaged, and the nutritional"
   },
   {
     "owner": "1",
-    "name": "Paris",
-    "price": "10.00",
+    "title": "Amsterdam",
+    "intro": "Amsterdam",
     "image": "/recover.jpg",
+    "thumb": "/recover.jpg",
+    "card": "/recover.jpg",
+    "banner": "/recover.jpg",
+    "og": "/recover.jpg",
     "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "paragraph": [
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional"
+    ],
+    "alt": [
       "/recover.jpg",
       "/sample.jpg",
       "/recover.jpg",
       "/mobile-Recovered.jpg"
     ],
     "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
-    "short": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely ",
-    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+    "short": "The variety of workouts keeps me engaged, and the nutritional"
   },
   {
     "owner": "4",
-    "name": "New York",
-    "price": "10.00",
+    "title": "Amsterdam",
+    "intro": "Amsterdam",
     "image": "/recover.jpg",
+    "thumb": "/recover.jpg",
+    "card": "/recover.jpg",
+    "banner": "/recover.jpg",
+    "og": "/recover.jpg",
     "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "paragraph": [
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional"
+    ],
+    "alt": [
       "/recover.jpg",
       "/sample.jpg",
       "/recover.jpg",
       "/mobile-Recovered.jpg"
     ],
     "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
-    "short": "The variety of workouts keeps me engaged, and the nutritional guidance my lifestyle. Ive never felt stronger or healthier!",
-    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+    "short": "The variety of workouts keeps me engaged, and the nutritional"
   },
   {
     "owner": "5",
-    "name": "LA",
-    "price": "10.00",
+    "title": "Amsterdam",
+    "intro": "Amsterdam",
     "image": "/recover.jpg",
+    "thumb": "/recover.jpg",
+    "card": "/recover.jpg",
+    "banner": "/recover.jpg",
+    "og": "/recover.jpg",
     "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "paragraph": [
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional"
+    ],
+    "alt": [
       "/recover.jpg",
       "/sample.jpg",
       "/recover.jpg",
       "/mobile-Recovered.jpg"
     ],
     "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
-    "short": "my lifestyle. Ive never felt stronger or healthier!",
-    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+    "short": "The variety of workouts keeps me engaged, and the nutritional"
   },
   {
-    "owner": "6",
-    "name": "Boston",
-    "price": "10.00",
+    "title": "Amsterdam",
+    "intro": "Amsterdam",
     "image": "/recover.jpg",
+    "thumb": "/recover.jpg",
+    "card": "/recover.jpg",
+    "banner": "/recover.jpg",
+    "og": "/recover.jpg",
     "images": [
+      "/recover.jpg",
+      "/sample.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg",
+      "/recover.jpg",
+      "/mobile-Recovered.jpg"
+    ],
+    "paragraph": [
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional",
+      "The variety of workouts keeps me engaged, and the nutritional"
+    ],
+    "alt": [
       "/recover.jpg",
       "/sample.jpg",
       "/recover.jpg",
       "/mobile-Recovered.jpg"
     ],
     "description": "I have seen significant improvements in my strength and endurance in just a few weeks. Highly recommend it!",
-    "short": "The variety of workouts keeps me engaged, and the nutritional transform my lifestyle. Ive never felt stronger or healthier!",
-    "alt": "The variety of workouts keeps me engaged, and the nutritional guidance has helped me completely transform my lifestyle. Ive never felt stronger or healthier!"
+    "short": "The variety of workouts keeps me engaged, and the nutritional"
   }
 ]
